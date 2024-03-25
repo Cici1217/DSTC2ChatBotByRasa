@@ -289,9 +289,10 @@ def method2_user_classify():
         jess_dict = json.loads(all_the_text)
         for turn in jess_dict["turns"]:
             method_label = turn.get("semantics", "").get("cam")
-            if method_label == 'null()':
+            print(method_label)
+            # if method_label == 'null()':
                 # print(method_label)
-                print("      - "+turn.get("transcription"))
+            print("      - "+turn.get("transcription"))
     return
 
 

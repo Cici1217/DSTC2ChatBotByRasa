@@ -31629,8 +31629,8 @@ stories:
   - action: judge11
   - intent: request
     
-  - action: judge-1
-  - intent: thankyou
+#  - action: judge-1
+#  - intent: thankyou
 - story: story_898
   steps:
     
@@ -33260,8 +33260,8 @@ stories:
   - action: judge26
   - intent: request
     
-  - action: judge-1
-  - intent: thankyou
+#  - action: judge-1
+#  - intent: thankyou
 - story: story_940
   steps:
     
@@ -40066,8 +40066,8 @@ stories:
   - action: judge13
   - intent: request
     
-  - action: judge-1
-  - intent: thankyou
+#  - action: judge-1
+#  - intent: thankyou
 - story: story_1127
   steps:
     
@@ -52717,41 +52717,41 @@ stories:
     - area: south
   - action: judge42
   - intent: thankyou
-- story: story_1507
-  steps:
-    
-  - action: judge0
-  - intent: inform
-    entities:
-    - food: christmas
-  - action: judge41
-  - intent: inform
-    
-  - action: judge-1
-  - intent: inform
-    entities:
-    - area: centre
-  - action: judge42
-  - intent: inform
-    entities:
-    - area: centre
-  - action: judge42
-  - intent: inform
-    entities:
-    - area: centre
-  - action: judge42
-  - intent: inform
-    entities:
-    - name: kohinoor
-    - area: centre
-    - food: indian
-  - action: judge25
-  - intent: request
-    entities:
-    - name: kohinoor
-    - addr: 74 mill road city centre
-  - action: judge11
-  - intent: thankyou
+#- story: story_1507
+#  steps:
+#
+#  - action: judge0
+#  - intent: inform
+#    entities:
+#    - food: christmas
+#  - action: judge41
+#  - intent: inform
+#
+#  - action: judge-1
+#  - intent: inform
+#    entities:
+#    - area: centre
+#  - action: judge42
+#  - intent: inform
+#    entities:
+#    - area: centre
+#  - action: judge42
+#  - intent: inform
+#    entities:
+#    - area: centre
+#  - action: judge42
+#  - intent: inform
+#    entities:
+#    - name: kohinoor
+#    - area: centre
+#    - food: indian
+#  - action: judge25
+#  - intent: request
+#    entities:
+#    - name: kohinoor
+#    - addr: 74 mill road city centre
+#  - action: judge11
+#  - intent: thankyou
 - story: story_1508
   steps:
     
@@ -55999,35 +55999,35 @@ stories:
     - postcode: c.b 3
   - action: judge15
   - intent: thankyou
-- story: story_1599
-  steps:
-    
-  - action: judge0
-  - intent: inform
-    entities:
-    - pricerange: moderate
-    - food: catalan
-  - action: judge43
-  - intent: reqalts
-    entities:
-    - pricerange: moderate
-    - food: catalan
-  - action: judge43
-  - intent: reqalts
-    entities:
-    - name: la tasca
-    - food: spanish
-    - pricerange: moderate
-  - action: judge26
-  - intent: request
-    
-  - action: judge-1
-  - intent: request
-    entities:
-    - name: la tasca
-    - addr: 14 -16 bridge street
-  - action: judge11
-  - intent: thankyou
+#- story: story_1599
+#  steps:
+#
+#  - action: judge0
+#  - intent: inform
+#    entities:
+#    - pricerange: moderate
+#    - food: catalan
+#  - action: judge43
+#  - intent: reqalts
+#    entities:
+#    - pricerange: moderate
+#    - food: catalan
+#  - action: judge43
+#  - intent: reqalts
+#    entities:
+#    - name: la tasca
+#    - food: spanish
+#    - pricerange: moderate
+#  - action: judge26
+#  - intent: request
+#
+#  - action: judge-1
+#  - intent: request
+#    entities:
+#    - name: la tasca
+#    - addr: 14 -16 bridge street
+#  - action: judge11
+#  - intent: thankyou
 - story: story_1600
   steps:
     
@@ -63218,50 +63218,50 @@ stories:
     - addr: 21 - 24 northampton street
   - action: judge28
   - intent: thankyou
-- story: story_1822
-  steps:
-    
-  - action: judge0
-  - intent: inform
-    entities:
-    - food: irish
-  - action: judge41
-  - intent: inform
-    entities:
-    - food: irish
-  - action: judge41
-  - intent: inform
-    entities:
-    - food: irish
-  - action: judge41
-  - intent: restart
-    
-  - action: judge-1
-  - intent: inform
-    entities:
-    - food: irish
-  - action: judge41
-  - intent: inform
-    entities:
-    - name: royal standard
-    - food: gastropub
-  - action: judge13
-  - intent: request
-    entities:
-    - name: royal standard
-    - addr: 290 mill road city centre
-  - action: judge11
-  - intent: request
-    entities:
-    - name: royal standard
-    - postcode: c.b 1
-  - action: judge15
-  - intent: request
-    entities:
-    - name: royal standard
-    - phone: 01223 247877
-  - action: judge12
-  - intent: thankyou
+#- story: story_1822
+#  steps:
+#
+#  - action: judge0
+#  - intent: inform
+#    entities:
+#    - food: irish
+#  - action: judge41
+#  - intent: inform
+#    entities:
+#    - food: irish
+#  - action: judge41
+#  - intent: inform
+#    entities:
+#    - food: irish
+#  - action: judge41
+#  - intent: restart
+#
+#  - action: judge-1
+#  - intent: inform
+#    entities:
+#    - food: irish
+#  - action: judge41
+#  - intent: inform
+#    entities:
+#    - name: royal standard
+#    - food: gastropub
+#  - action: judge13
+#  - intent: request
+#    entities:
+#    - name: royal standard
+#    - addr: 290 mill road city centre
+#  - action: judge11
+#  - intent: request
+#    entities:
+#    - name: royal standard
+#    - postcode: c.b 1
+#  - action: judge15
+#  - intent: request
+#    entities:
+#    - name: royal standard
+#    - phone: 01223 247877
+#  - action: judge12
+#  - intent: thankyou
 - story: story_1823
   steps:
     
@@ -66106,33 +66106,33 @@ stories:
     - pricerange: expensive
   - action: judge31
   - intent: thankyou
-- story: story_1917
-  steps:
-    
-  - action: judge0
-  - intent: inform
-    entities:
-    - food: irish
-  - action: judge41
-  - intent: inform
-    
-  - action: judge-1
-  - intent: inform
-    entities:
-    - food: irish
-  - action: judge41
-  - intent: inform
-    entities:
-    - name: la tasca
-    - food: spanish
-  - action: judge13
-  - intent: request
-    entities:
-    - name: la tasca
-    - phone: 01223 464630
-    - addr: 14 -16 bridge street
-  - action: judge28
-  - intent: thankyou
+#- story: story_1917
+#  steps:
+#
+#  - action: judge0
+#  - intent: inform
+#    entities:
+#    - food: irish
+#  - action: judge41
+#  - intent: inform
+#
+#  - action: judge-1
+#  - intent: inform
+#    entities:
+#    - food: irish
+#  - action: judge41
+#  - intent: inform
+#    entities:
+#    - name: la tasca
+#    - food: spanish
+#  - action: judge13
+#  - intent: request
+#    entities:
+#    - name: la tasca
+#    - phone: 01223 464630
+#    - addr: 14 -16 bridge street
+#  - action: judge28
+#  - intent: thankyou
 - story: story_1918
   steps:
     
@@ -70294,33 +70294,33 @@ stories:
     - addr: st. michael's church trinity street city centre
   - action: judge28
   - intent: thankyou
-- story: story_2051
-  steps:
-    
-  - action: judge0
-  - intent: null()
-    entities:
-    - food: world
-  - action: judge41
-  - intent: null()
-    
-  - action: judge-1
-  - intent: null()
-    entities:
-    - pricerange: cheap
-    - food: world
-  - action: judge43
-  - intent: null()
-    entities:
-    - pricerange: cheap
-    - food: world
-  - action: judge43
-  - intent: thankyou
-    entities:
-    - pricerange: cheap
-    - food: world
-  - action: judge43
-  - intent: bye
+#- story: story_2051
+#  steps:
+#
+#  - action: judge0
+#  - intent: null()
+#    entities:
+#    - food: world
+#  - action: judge41
+#  - intent: null()
+#
+#  - action: judge-1
+#  - intent: null()
+#    entities:
+#    - pricerange: cheap
+#    - food: world
+#  - action: judge43
+#  - intent: null()
+#    entities:
+#    - pricerange: cheap
+#    - food: world
+#  - action: judge43
+#  - intent: thankyou
+#    entities:
+#    - pricerange: cheap
+#    - food: world
+#  - action: judge43
+#  - intent: bye
 - story: story_2052
   steps:
     
